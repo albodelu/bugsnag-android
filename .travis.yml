@@ -1,6 +1,5 @@
 language: android
-
-group: deprecated-2017Q2
+dist: precise
 
 android:
   components:
@@ -32,4 +31,4 @@ before_script:
 
 script: ./gradlew --info lint connectedAndroidTest
 
-sudo: required
+sudo: false
