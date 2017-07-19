@@ -1,5 +1,7 @@
 language: android
 
+group: deprecated-2017Q2
+
 android:
   components:
     - tools
